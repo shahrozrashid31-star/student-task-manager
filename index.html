@@ -8,6 +8,17 @@
 </head>
 <body>
   <h1>Student Task Manager</h1>
+
+  <form id="task-form">
+    <label for="task-title">Task Title</label>
+    <input type="text" id="task-title" placeholder="Enter task title" required>
+
+    <label for="task-description">Description</label>
+    <textarea id="task-description" placeholder="Enter task description"></textarea>
+
+    <button type="submit">Add Task</button>
+  </form>
+
   <div id="task-list"></div>
   <script src="script.js"></script>
 </body>
